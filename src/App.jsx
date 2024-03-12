@@ -1,16 +1,17 @@
-import CoustemerReview from "./sections/CoustemerReview";
-import Footer from "./sections/Footer";
-import Hero from "./sections/Hero";
-import PopularProduct from "./sections/PopularProduct";
-import Service from "./sections/Service";
-import SpecialOffer from "./sections/SpecialOffer";
-import Subscribe from "./sections/Subscribe";
-import SuperqulityProduct from "./sections/SuperqulityProduct";
+import Nav from "./components/Nav";
+import {  CoustemerReview,
+  Footer,
+  Hero,
+  PopularProduct,
+  Service,
+  SpecialOffer,
+  Subscribe,
+  SuperqulityProduct} from "./sections/index";
 
 export default function App() {
   return (
     <main>
-      Nav
+      <Nav/>
       <section className=" xl:padding-1 wide:padding-r padding-b ">
         <Hero/>
       </section>
